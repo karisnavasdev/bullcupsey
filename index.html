@@ -3,234 +3,341 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BULL CUPSEY (BULLSEY) — The Horniest Bull on Solana</title>
-  <meta name="description" content="Bull Cupsey ($BULLSEY) — one horn, zero chill, infinite pumps. The funniest bull on Solana.">
+  <title>bull cupsey ($bullsey) 🐂 horniest bull on solana</title>
+  <meta name="description" content="bull cupsey ($bullsey) — one horn, one cup, zero thoughts. the funniest bull on solana probably">
   <link rel="icon" href="assets/logo.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="noise"></div>
-  <div class="bull-rain" aria-hidden="true"></div>
 
-  <nav class="nav">
-    <a href="#" class="nav-logo">
-      <img src="assets/logo.png" alt="Bull Cupsey">
-      <span>BULL CUPSEY</span>
-    </a>
-    <div class="nav-links">
-      <a href="#about">About</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#tokenomics">Tokenomics</a>
-      <a href="https://swap.pump.fun/?output=bullseypump" target="_blank" rel="noopener" class="nav-cta">BUY NOW</a>
-    </div>
-    <button class="nav-burger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-  </nav>
+  <div class="ambient" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
 
-  <header class="hero">
-    <div class="hero-banner-wrap">
-      <img src="assets/banner.jpg" alt="Bull Cupsey Banner" class="hero-banner">
-    </div>
-    <div class="hero-content">
-      <div class="hero-badge">🐂 SOLANA'S #1 HORNY BULL 🐂</div>
-      <h1 class="hero-title">
-        <span class="title-line">BULL</span>
-        <span class="title-line accent">CUPSEY</span>
-      </h1>
-      <p class="hero-ticker">$BULLSEY</p>
-      <p class="hero-tagline">One horn. Zero chill. Infinite pumps.<br>He didn't choose the bull life — the bull life chose his cup.</p>
-
-      <div class="hero-mascot">
-        <img src="assets/bull1.png" alt="Bull Cupsey mascot" class="mascot-img" id="heroMascot">
-        <div class="mascot-glow"></div>
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a href="#top" class="brand">
+        <img src="assets/logo.png" alt="Bull Cupsey" width="40" height="40">
+        <span>Bull Cupsey</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">Lore</a>
+        <a href="#gallery">Art</a>
+        <a href="#quotes">Quotes</a>
+        <a href="#tokenomics">Numbers</a>
+        <a href="#buy">Buy (pls)</a>
       </div>
-
-      <div class="hero-actions">
-        <a href="https://swap.pump.fun/?output=bullseypump" target="_blank" rel="noopener" class="btn btn-primary btn-pulse">
-          🚀 BUY ON PUMPSWAP
-        </a>
-        <a href="https://dexscreener.com/solana/bullseypump" target="_blank" rel="noopener" class="btn btn-secondary">
-          📈 DEXSCREENER
-        </a>
-      </div>
-
-      <div class="ca-box">
-        <span class="ca-label">CA:</span>
-        <code class="ca-text" id="caText">bullseypump</code>
-        <button class="ca-copy" id="copyCa" aria-label="Copy contract address">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
-          <span>COPY</span>
+      <div class="nav-actions">
+        <a href="https://dexscreener.com/solana/bullseypump" target="_blank" rel="noopener" class="btn btn-ghost">Chart</a>
+        <a href="https://swap.pump.fun/?output=bullseypump" target="_blank" rel="noopener" class="btn btn-primary">APE IN 🐂</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+          <span></span><span></span>
         </button>
       </div>
-      <p class="ca-toast" id="caToast">Copied! Now go get horny with gains 🐂</p>
-    </div>
-
-    <div class="scroll-hint">
-      <span>SCROLL FOR MORE BULL</span>
-      <div class="scroll-arrow">↓</div>
-    </div>
+    </nav>
   </header>
 
-  <section id="about" class="section about">
-    <div class="container">
-      <h2 class="section-title">WTF IS <span class="accent">BULL CUPSEY</span>?</h2>
-      <div class="about-grid">
-        <div class="about-card">
-          <div class="about-icon">🐂</div>
-          <h3>100% Bull Energy</h3>
-          <p>Born on Solana with one mission: send it so hard the chart looks like his horn. No bears allowed. Literally. We checked.</p>
-        </div>
-        <div class="about-card featured">
-          <img src="assets/bull2.png" alt="Bull Cupsey flexing" class="about-img">
-        </div>
-        <div class="about-card">
-          <div class="about-icon">☕</div>
-          <h3>Cupsey Approved</h3>
-          <p>He drinks from the cup of destiny. Every sip = 10x. Science can't explain it. We don't want it to.</p>
-        </div>
-        <div class="about-card">
-          <div class="about-icon">📈</div>
-          <h3>Only Up (Probably)</h3>
-          <p>Not financial advice. But have you SEEN this bull? He's wearing sunglasses INDOORS. That's confidence.</p>
-        </div>
-        <div class="about-card">
-          <div class="about-icon">🔥</div>
-          <h3>Community Driven</h3>
-          <p>Built by degens, for degens. If you're reading this, you're already early. Probably. Maybe. Definitely maybe.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  <main>
 
-  <section id="gallery" class="section gallery">
-    <div class="container">
-      <h2 class="section-title">THE <span class="accent">BULL</span> GALLERY</h2>
-      <p class="section-sub">Every frame is a W. Every pixel is pure horn energy.</p>
-      <div class="gallery-grid">
-        <div class="gallery-item" data-index="0"><img src="assets/bull1.png" alt="Bull Cupsey 1"><div class="gallery-overlay">MOOOO 🐂</div></div>
-        <div class="gallery-item" data-index="1"><img src="assets/bull2.png" alt="Bull Cupsey 2"><div class="gallery-overlay">SEND IT</div></div>
-        <div class="gallery-item" data-index="2"><img src="assets/bull3.png" alt="Bull Cupsey 3"><div class="gallery-overlay">HORNY AF</div></div>
-        <div class="gallery-item wide" data-index="3"><img src="assets/bull4.png" alt="Bull Cupsey 4"><div class="gallery-overlay">NO CAP</div></div>
-        <div class="gallery-item" data-index="4"><img src="assets/bull5.png" alt="Bull Cupsey 5"><div class="gallery-overlay">WAGMI</div></div>
-        <div class="gallery-item" data-index="5"><img src="assets/bull6.png" alt="Bull Cupsey 6"><div class="gallery-overlay">BULL RUN</div></div>
-        <div class="gallery-item" data-index="6"><img src="assets/bull7.png" alt="Bull Cupsey 7"><div class="gallery-overlay">LFG 🚀</div></div>
-      </div>
-    </div>
-  </section>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="pill">
+            <span class="pill-dot"></span>
+            somehow live on solana
+          </div>
+          <h1 class="hero-title">
+            It's <span class="gradient-text">Bull Cupsey</span>
+          </h1>
+          <p class="hero-ticker">$bullsey</p>
+          <p class="hero-lead">
+            he has a cup. he has a horn. he has no roadmap that makes sense.
+            someone launched this at 3am and now we're all just vibing.
+            if u get it u get it. if u dont... why r u still here lol
+          </p>
 
-  <section class="section memes">
-    <div class="container">
-      <div class="meme-ticker">
-        <div class="meme-track">
-          <span>🐂 BULL CUPSEY TO THE MOON</span>
-          <span>☕ SIP THE CUP EAT THE GAINS</span>
-          <span>📈 CHART GO BRRRR</span>
-          <span>🚀 PUMPSWAP OR BUST</span>
-          <span>💎 DIAMOND HORNS ONLY</span>
-          <span>🐂 BEARS ARE COOKED</span>
-          <span>🔥 $BULLSEY OR NOTHING</span>
-          <span>🐂 BULL CUPSEY TO THE MOON</span>
-          <span>☕ SIP THE CUP EAT THE GAINS</span>
-          <span>📈 CHART GO BRRRR</span>
-          <span>🚀 PUMPSWAP OR BUST</span>
-          <span>💎 DIAMOND HORNS ONLY</span>
-          <span>🐂 BEARS ARE COOKED</span>
-          <span>🔥 $BULLSEY OR NOTHING</span>
-        </div>
-      </div>
-    </div>
-  </section>
+          <div class="hero-cta">
+            <a href="https://swap.pump.fun/?output=bullseypump" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+              bully the chart →
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="https://dexscreener.com/solana/bullseypump" target="_blank" rel="noopener" class="btn btn-outline btn-lg">stare at chart</a>
+          </div>
 
-  <section id="tokenomics" class="section tokenomics">
-    <div class="container">
-      <h2 class="section-title"><span class="accent">TOKENOMICS</span> (TRUST ME BRO)</h2>
-      <div class="token-grid">
-        <div class="token-card">
-          <div class="token-stat">1B</div>
-          <div class="token-label">Total Supply</div>
-        </div>
-        <div class="token-card">
-          <div class="token-stat">0%</div>
-          <div class="token-label">Tax</div>
-        </div>
-        <div class="token-card">
-          <div class="token-stat">100%</div>
-          <div class="token-label">Bullish</div>
-        </div>
-        <div class="token-card">
-          <div class="token-stat">∞</div>
-          <div class="token-label">Horn Power</div>
-        </div>
-      </div>
-      <div class="roadmap">
-        <h3 class="roadmap-title">🗺️ ROADMAP (VERY REAL)</h3>
-        <div class="roadmap-items">
-          <div class="roadmap-item done">
-            <div class="roadmap-dot"></div>
-            <div class="roadmap-text"><strong>Phase 1:</strong> Bull wakes up, drinks cup, launches on Solana</div>
+          <div class="ca-field">
+            <label>ca (copy before u ape)</label>
+            <div class="ca-row">
+              <code id="caText">bullseypump</code>
+              <button type="button" class="btn-copy" id="copyCa" aria-label="Copy contract">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                Copy
+              </button>
+            </div>
+            <p class="ca-toast" id="caToast">copied. go get horny with gains 🐂</p>
           </div>
-          <div class="roadmap-item done">
-            <div class="roadmap-dot"></div>
-            <div class="roadmap-text"><strong>Phase 2:</strong> Community goes feral, memes everywhere</div>
+          <p class="hero-hint">↑ click the bull. he does stuff (not much)</p>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="hero-frame">
+            <img src="assets/bull1.png" alt="Bull Cupsey mascot" class="hero-mascot" id="heroMascot">
+            <div class="hero-badge-float">🐂</div>
+            <div class="hero-ring"></div>
           </div>
-          <div class="roadmap-item active">
-            <div class="roadmap-dot"></div>
-            <div class="roadmap-text"><strong>Phase 3:</strong> You buy $BULLSEY (you are here)</div>
-          </div>
-          <div class="roadmap-item">
-            <div class="roadmap-dot"></div>
-            <div class="roadmap-text"><strong>Phase 4:</strong> Bull buys island, chart does backflip</div>
-          </div>
-          <div class="roadmap-item">
-            <div class="roadmap-dot"></div>
-            <div class="roadmap-text"><strong>Phase 5:</strong> Elon tweets "nice horn" — we moon</div>
+          <div class="hero-cards">
+            <div class="float-card fc-1">
+              <span class="fc-label">brain cells</span>
+              <strong>0</strong>
+            </div>
+            <div class="float-card fc-2">
+              <span class="fc-label">horny level</span>
+              <strong>MAX</strong>
+            </div>
+      
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <section class="section cta-section">
-    <div class="container cta-inner">
-      <img src="assets/bull3.png" alt="" class="cta-bull left">
-      <div class="cta-content">
-        <h2>DON'T BE A BEAR.<br>BE A <span class="accent">BULL.</span></h2>
-        <p>The cup is full. The horn is sharp. The pump is waiting.</p>
-        <div class="hero-actions">
-          <a href="https://swap.pump.fun/?output=bullseypump" target="_blank" rel="noopener" class="btn btn-primary btn-pulse">
-            🚀 BUY $BULLSEY NOW
-          </a>
-          <a href="https://dexscreener.com/solana/bullseypump" target="_blank" rel="noopener" class="btn btn-secondary">
-            📈 VIEW CHART
-          </a>
+      <div class="hero-banner-wrap">
+        <img src="assets/banner.jpg" alt="Bull Cupsey banner" class="hero-banner">
+      </div>
+    </section>
+
+    <section class="ticker-strip" aria-hidden="true">
+      <div class="ticker-track">
+        <span>MOOOO</span><span>•</span><span>$BULLSEY</span><span>•</span><span>CUP FULL BRAIN EMPTY</span><span>•</span><span>BEARS ARE SHOOK</span><span>•</span><span>HORN LONG</span><span>•</span><span>NOT FINANCIAL ADVICE</span><span>•</span><span>WEN? NOW.</span><span>•</span>
+        <span>MOOOO</span><span>•</span><span>$BULLSEY</span><span>•</span><span>CUP FULL BRAIN EMPTY</span><span>•</span><span>BEARS ARE SHOOK</span><span>•</span><span>HORN LONG</span><span>•</span><span>NOT FINANCIAL ADVICE</span><span>•</span><span>WEN? NOW.</span><span>•</span>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container stats-grid">
+        <article class="stat-card reveal">
+          <span class="stat-value">1B</span>
+          <span class="stat-label">bulls to go around</span>
+        </article>
+        <article class="stat-card reveal reveal-delay">
+          <span class="stat-value">0%</span>
+          <span class="stat-label">tax (we're not monsters)</span>
+        </article>
+        <article class="stat-card reveal reveal-delay-2">
+          <span class="stat-value">∞</span>
+          <span class="stat-label">horn power (unmeasurable)</span>
+        </article>
+        <article class="stat-card reveal reveal-delay-3">
+          <span class="stat-value">7</span>
+          <span class="stat-label">certified bull pics</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">the lore (real)</span>
+          <h2>one bull. one cup.<br><span class="gradient-text">zero chill.</span></h2>
+          <p class="section-lead">bull cupsey isn't trying to reinvent defi. he's a bull with a cup who accidentally became a solana token. we checked for utility. there is none. just horn.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon">🐂</div>
+            <h3>100% bull energy</h3>
+            <p>born on solana with one mission: send it so hard the chart looks like his horn. no bears allowed. literally. we checked.</p>
+          </article>
+          <article class="feature-card reveal reveal-delay">
+            <div class="feature-icon">☕</div>
+            <h3>cupsey approved</h3>
+            <p>he drinks from the cup of destiny. every sip = 10x. science can't explain it. we don't want it to.</p>
+          </article>
+          <article class="feature-card reveal reveal-delay-2">
+            <div class="feature-icon">🧠</div>
+            <h3>only up (probably)</h3>
+            <p>not financial advice. but have u SEEN this bull? he's wearing sunglasses INDOORS. that's confidence.</p>
+          </article>
         </div>
       </div>
-      <img src="assets/bull5.png" alt="" class="cta-bull right">
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <img src="assets/logo.png" alt="Bull Cupsey" class="footer-logo">
-      <p class="footer-name">BULL CUPSEY · $BULLSEY</p>
-      <p class="footer-disclaimer">This is a meme coin. Not financial advice. Bulls may horn. DYOR. 🐂</p>
+    <section class="section section-gallery" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">bull museum</span>
+          <h2>the <span class="gradient-text">gallery</span></h2>
+          <p class="section-lead">original bull art. screenshot these. post them. we don't have twitter yet but whatever</p>
+        </div>
+
+        <div class="gallery-feature reveal">
+          <figure class="gallery-piece gallery-hero" data-index="3">
+            <div class="gallery-img-wrap">
+              <img src="assets/bull4.png" alt="No Thoughts, Head Empty">
+            </div>
+            <figcaption>
+              <span class="g-num">04</span>
+              <span class="g-title">No Thoughts, Head Empty (mood)</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-piece reveal" data-index="0">
+            <div class="gallery-img-wrap"><img src="assets/bull1.png" alt="Mooo"></div>
+            <figcaption><span class="g-num">01</span><span class="g-title">mooo (classic)</span></figcaption>
+          </figure>
+          <figure class="gallery-piece reveal reveal-delay" data-index="1">
+            <div class="gallery-img-wrap"><img src="assets/bull2.png" alt="The Flex"></div>
+            <figcaption><span class="g-num">02</span><span class="g-title">the flex</span></figcaption>
+          </figure>
+          <figure class="gallery-piece reveal reveal-delay-2" data-index="2">
+            <div class="gallery-img-wrap"><img src="assets/bull3.png" alt="Pure Menace"></div>
+            <figcaption><span class="g-num">03</span><span class="g-title">pure menace</span></figcaption>
+          </figure>
+          <figure class="gallery-piece reveal" data-index="4">
+            <div class="gallery-img-wrap"><img src="assets/bull5.png" alt="Send It"></div>
+            <figcaption><span class="g-num">05</span><span class="g-title">send it (no cap)</span></figcaption>
+          </figure>
+          <figure class="gallery-piece reveal reveal-delay" data-index="5">
+            <div class="gallery-img-wrap"><img src="assets/bull6.png" alt="Horny Hours"></div>
+            <figcaption><span class="g-num">06</span><span class="g-title">horny hours only</span></figcaption>
+          </figure>
+          <figure class="gallery-piece reveal reveal-delay-2" data-index="6">
+            <div class="gallery-img-wrap"><img src="assets/bull7.png" alt="LFG"></div>
+            <figcaption><span class="g-num">07</span><span class="g-title">lfg or ngmi</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-quotes" id="quotes">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">community says</span>
+          <h2>things people <span class="gradient-text">actually said</span></h2>
+          <p class="section-lead">(probably) (definitely not us) (dyor)</p>
+        </div>
+        <div class="quotes-grid">
+          <blockquote class="quote-card reveal">
+            <p>"i put my rent money in $bullsey and i feel great"</p>
+            <cite>— some guy in the tg at 4am</cite>
+          </blockquote>
+          <blockquote class="quote-card reveal reveal-delay">
+            <p>"the horn speaks to me. it said buy more"</p>
+            <cite>— definitely not the dev</cite>
+          </blockquote>
+          <blockquote class="quote-card reveal reveal-delay-2">
+            <p>"bears r literally shaking rn. i can hear them"</p>
+            <cite>— bull cupsey (probably)</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tokenomics">
+      <div class="container split-section">
+        <div class="split-copy reveal">
+          <span class="eyebrow">trust me bro</span>
+          <h2>the numbers<br><span class="gradient-text">(very real)</span></h2>
+          <ul class="token-list">
+            <li><span>token</span><strong>$BULLSEY</strong></li>
+            <li><span>chain</span><strong>solana (fast)</strong></li>
+            <li><span>supply</span><strong>1,000,000,000 (a lot)</strong></li>
+            <li><span>tax</span><strong>0% / 0% (we're chill)</strong></li>
+            <li><span>utility</span><strong>being funny</strong></li>
+            <li><span>team</span><strong>the bull + u</strong></li>
+          </ul>
+        </div>
+
+        <div class="roadmap-card reveal reveal-delay">
+          <h3>roadmap (trust me bro)</h3>
+          <ol class="roadmap">
+            <li class="done"><span>01</span> bull wakes up, drinks cup, launches on solana</li>
+            <li class="done"><span>02</span> community goes feral, memes everywhere</li>
+            <li class="active"><span>03</span> u buy $bullsey ← <strong>u are here</strong></li>
+            <li><span>04</span> chart goes up (not guaranteed lol)</li>
+            <li><span>05</span> elon tweets "nice horn" — we moon</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-buy" id="buy">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">how to ape</span>
+          <h2>how to buy <span class="gradient-text">$bullsey</span></h2>
+          <p class="section-lead">3 steps. even a bear could do it (they won't tho)</p>
+        </div>
+
+        <div class="steps">
+          <article class="step reveal">
+            <span class="step-num">1</span>
+            <h3>get a wallet</h3>
+            <p>download phantom. put some sol in it. don't use your lunch money. or do. we can't stop u.</p>
+          </article>
+          <article class="step reveal reveal-delay">
+            <span class="step-num">2</span>
+            <h3>hit pumpswap</h3>
+            <p>click the big button. connect wallet. swap sol for $bullsey. watch the bull do bull things.</p>
+          </article>
+          <article class="step reveal reveal-delay-2">
+            <span class="step-num">3</span>
+            <h3>become the bull</h3>
+            <p>stare at dexscreener. post bull pics. tell ur friends. moo occasionally. wagmi (maybe).</p>
+          </article>
+        </div>
+
+        <div class="buy-cta reveal">
+          <a href="https://swap.pump.fun/?output=bullseypump" target="_blank" rel="noopener" class="btn btn-primary btn-lg">ape on pumpswap 🐂</a>
+          <a href="https://dexscreener.com/solana/bullseypump" target="_blank" rel="noopener" class="btn btn-outline btn-lg">watch line go up</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container cta-inner reveal">
+        <img src="assets/bull3.png" alt="" class="cta-mascot">
+        <div>
+          <h2>stop reading.<br>start <span class="gradient-text">bullying.</span></h2>
+          <p>the cup is full. the horn is sharp. the pump is waiting. bears are not invited.</p>
+          <a href="https://swap.pump.fun/?output=bullseypump" target="_blank" rel="noopener" class="btn btn-primary btn-lg">buy $bullsey now 🚀</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Bull Cupsey" width="48" height="48">
+        <p><strong>Bull Cupsey</strong> · $bullsey</p>
+        <p class="footer-note">meme coin. not financial advice. bulls may horn. dyor. moo.</p>
+      </div>
       <div class="footer-links">
         <a href="https://swap.pump.fun/?output=bullseypump" target="_blank" rel="noopener">PumpSwap</a>
         <a href="https://dexscreener.com/solana/bullseypump" target="_blank" rel="noopener">DexScreener</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#buy">How to Buy</a>
       </div>
-      <p class="footer-copy">&copy; 2026 Bull Cupsey. All horns reserved.</p>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 bull cupsey. all horns reserved. no bears were harmed (they r just scared)</p>
     </div>
   </footer>
 
-  <div class="lightbox" id="lightbox">
-    <button class="lightbox-close" id="lightboxClose">&times;</button>
-    <button class="lightbox-prev" id="lightboxPrev">&#8249;</button>
-    <img src="" alt="Bull Cupsey" id="lightboxImg">
-    <button class="lightbox-next" id="lightboxNext">&#8250;</button>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Artwork viewer">
+    <button class="lb-close" id="lightboxClose" type="button" aria-label="Close">&times;</button>
+    <button class="lb-nav lb-prev" id="lightboxPrev" type="button" aria-label="Previous">&#8249;</button>
+    <div class="lb-content">
+      <img src="" alt="" id="lightboxImg">
+      <p id="lightboxCaption"></p>
+    </div>
+    <button class="lb-nav lb-next" id="lightboxNext" type="button" aria-label="Next">&#8250;</button>
   </div>
 
   <script src="script.js"></script>
