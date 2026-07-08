@@ -600,6 +600,16 @@ a {
   line-height: 1.7;
 }
 
+.section-lead a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.section-lead a:hover {
+  color: var(--text);
+}
+
 /* ── Features ── */
 .feature-grid {
   display: grid;
