@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const copyToasts = [
     'copied. go get horny with gains 🐂',
     'ca copied. now ape responsibly (or dont)',
-    'bullseypump is in ur clipboard. moo.',
+    '7aD86TAvoXPBAkt7HxGsz3MG8UBdDUvcVeBLouVcpump is in ur clipboard. moo.',
     'paste it. buy it. become the bull.',
     'nice. u copied the funny bull address'
   ];
